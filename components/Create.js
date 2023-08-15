@@ -14,7 +14,7 @@ const Create = (props) => {
     activeTask,
     setActiveTask,
   } = props;
-
+  // to sumbit data on a new task varibale
   const submitHandler = (event) => {
     event.preventDefault();
     // Validation
