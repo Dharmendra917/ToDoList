@@ -36,7 +36,7 @@ const Create = (props) => {
     setDescription("");
     setStatus("Due");
   };
-
+  // tiis is used for update task in todo list
   const updateTask = (e) => {
     e.preventDefault();
     const copyTask = [...tasks];
